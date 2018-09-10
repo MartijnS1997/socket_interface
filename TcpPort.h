@@ -30,7 +30,7 @@ namespace snl{
         TcpPortNbType toNetworkByteOrder();
         TcpPortNbType getPortNumber();
         
-        constexpr TcpPortNbType getMaxPortNumber(){
+        static TcpPortNbType getMaxPortNumber(){
             return MAX_PORTNB;
         }
         
