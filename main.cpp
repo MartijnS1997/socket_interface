@@ -20,10 +20,10 @@ void serverFunc(std::size_t);
 int main(int argc, char **argv)
 {
     std::string msg("hello there! i hope this message comes trough... otherwise i would be sad :(");
-    //servSockFsmTest();
+    servSockFsmTest();
     //serverFunc(msg.size());
 
-    strSockTest(msg);
+    //strSockTest(msg);
 
 }
 

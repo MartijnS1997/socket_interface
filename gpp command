@@ -1,0 +1,1 @@
+g++ -Wall main.cpp FdGuard.cpp IpAddres.cpp ServerSocket.cpp ServerSocketFsm.cpp SnlException.cpp SocketAddress.cpp StreamSocket.cpp StreamSocketFsm.cpp TcpPort.cpp -o serverMain
